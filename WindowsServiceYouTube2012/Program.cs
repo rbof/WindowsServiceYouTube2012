@@ -17,7 +17,7 @@ namespace WindowsServiceYouTube2012
             ServiceBase[] ServicesToRun;
             ServicesToRun=new ServiceBase[]
             {
-                new Service1()
+                new ServiceOne()
             };
             ServiceBase.Run(ServicesToRun);
         }

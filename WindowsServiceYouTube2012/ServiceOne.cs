@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace WindowsServiceYouTube2012
 {
-    public partial class Service1 : ServiceBase
+    public partial class ServiceOne : ServiceBase
     {
-        public Service1()
+        public ServiceOne()
         {
             InitializeComponent();
         }
